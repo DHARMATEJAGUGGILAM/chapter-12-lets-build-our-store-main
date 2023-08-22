@@ -1,0 +1,7 @@
+# `Learn React With Dharma 👩🏻‍💻 Series`
+   Documenting my learning journey of [Namaste React Live Course](https://learn.namastedev.com/) conducted by Akshay Saini
+
+## Class Summary `Chapter-12 Let's build our store (last chapter for foodwilla)` (04/02/2023)
+  Chapter-12 is all about handling data using external state management library `Redux`. Akshay made it easy to understand this knowledge heavy complex concept. We discussed the problems with other ways of data management like Props drilling and Context API. Importance of Redux, Redux Toolkit vs React-Redux and step by step configuration and implementation of React Redux were done in this chapter. Jargons like reducer, dispatch, action, selector, slice, store, state, subscription were explained clearly. It was mind blowing and still could not stop thinking about it.
+
+One line about this chapter : `When we need to make a modification in the store, we must first dispatch an action that calls a reducer function which updates the slice of the store, and when we want to read from the store, we must first call a Selector Hook (function) for subscribing only to the required slice of store, which can be used to update the data in the component`.
